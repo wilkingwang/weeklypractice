@@ -8,4 +8,8 @@ type WindowAdapter struct {
 
 func (w *WindowAdapter) InsertIntoLightningPort() {
 	fmt.Println("Adapter converts  lighting signal to usb")
+
+	w.windowMachine.InsertIntoLightningPort()
 }
+
+
