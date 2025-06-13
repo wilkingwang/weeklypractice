@@ -17,7 +17,7 @@ def main():
         "stream": False
     }
 
-    response = requests.post("http://159.138.231.181:11434/api/chat", json=data, headers=headers)
+    response = requests.post("http://127.0.0.1:11434/api/chat", json=data, headers=headers)
     rsp = response.json()
     print(rsp)
 
