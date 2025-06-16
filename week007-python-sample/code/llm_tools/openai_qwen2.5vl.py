@@ -37,7 +37,6 @@ if __name__ == '__main__':
     with open ('./config/qwen2.5vl-32b.yaml', 'r') as f:
         config = yaml.load(f)
 
-    print(config)
     print(config['api_url'], config['model_name'])
     for i in range(0, 1000000):
         main(config['api_url'], config['model_name'])
