@@ -20,6 +20,9 @@
     - 自适应检索：适用于更多步逻辑推理的复杂问题。复杂的问答往往需要从多个数据源综合信息进行多步推理。子使用检索通过迭代地访问RAG检索器和LLM，逐步构建解决问题所需地信息链。
 <div align=center><img src="adaptive-agent-rag.png"></div>
 
+#### 二、任务编排
+&ensp;&ensp;&ensp;&ensp;任务编排系统类
+
 #### 二、检索器（Retriever）
 
 #### 三、重排序器（ReRanker）
