@@ -33,7 +33,7 @@ for f in icon_detect/{train_args.yaml,model.pt,model.yaml} icon_caption/{config.
 
 ## 3、启动服务
 ```sh
-python -m omniparserserver --som_model_path ../../weights/icon_detect/model.pt --caption_model_name florence2 --caption_model_path ../../weights/icon_caption_florence --device cuda --BOX_TRESHOLD 0.05
+python -m omniparserserver --som_model_path ./weights/icon_detect/model.pt --caption_model_name florence2 --caption_model_path ./weights/icon_caption_florence --device cuda --BOX_TRESHOLD 0.05 --port 8080 --host 0.0.0.0
 ```
 
 # 三、存在的问题
